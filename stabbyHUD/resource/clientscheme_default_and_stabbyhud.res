@@ -1597,7 +1597,7 @@ Scheme
       "1"
       {
         "name"		"TF2 Build"
-        "tall"		"53"
+        "tall"		"51"
         "weight"	"500"
         "additive"	"0"
         "antialias" "1"

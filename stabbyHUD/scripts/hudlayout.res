@@ -1049,7 +1049,7 @@
 	{
 		"fieldName"		"CHealthAccountPanel"
 		"xpos"			"60"
-		"ypos"			"r105"
+		"ypos"			"r100"
 		"wide"			"900"
 		"tall"  		"900"
 		"visible" 		"1"

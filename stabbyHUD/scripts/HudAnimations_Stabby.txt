@@ -92,7 +92,7 @@ event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"		Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-180 245"	Linear 0.0 0.2 // c50 250
+	Animate PlayerStatusSpyOutlineImage		Position	"c-182 245"	Linear 0.0 0.2 // c50 250
 	Animate PlayerStatusSpyOutlineImage		Size		"140 140"	Linear 0.0 0.2
 	
 	RunEvent HudSpyDisguiseHide	0.7
@@ -100,7 +100,7 @@ event HudSpyDisguiseChanged
 
 event HudSpyDisguiseHide
 {
-	Animate PlayerStatusSpyOutlineImage		Position	"c-130 c105"	Linear 0.0 0.2 // c-50 c105
+	Animate PlayerStatusSpyOutlineImage		Position	"c-128 c105"	Linear 0.0 0.2 // c-50 c105
 	Animate PlayerStatusSpyOutlineImage		Size		"55 55"		Linear 0.0 0.2 // 55 55
 	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"		Linear 0.2 0.1

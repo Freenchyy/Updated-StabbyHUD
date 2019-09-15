@@ -637,7 +637,7 @@
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
 	
-                if_mvm
+        if_mvm
 		{
 			"visible"		"0"
 		}
@@ -668,10 +668,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"#Tournament_Instructions"
+		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
 	
-                if_mvm
+        if_mvm
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"155"

@@ -100,6 +100,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+        {
+        "visible"	"0"
+        }
 	}	
 		
 	"BlueScoreShadow"
@@ -121,6 +126,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+        {
+        "visible"	"0"
+        }
 	}	
 							
 	"RedScore"
@@ -143,6 +153,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+        {
+        "visible"	"0"
+        }
 	}	
 		
 	"RedScoreShadow"
@@ -165,6 +180,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+        {
+        "visible"	"0"
+        }
 	}	
 															
 	"OutlineImage"
@@ -226,6 +246,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+        {
+        "visible"	"0"
+        }
 	}	
 			
 	"PlayingToBG"
@@ -247,6 +272,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+        {
+        "visible"	"0"
+        }
 	}	
 		
 	"BlueFlag"

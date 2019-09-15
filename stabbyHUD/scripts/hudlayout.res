@@ -1,5 +1,20 @@
 "Resource/HudLayout.res"
 {
+    "TransparentViewmodelMask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"		// "1" to enable transparent viewmodels for DirectX 9.
+		"enabled"		"1"		// "1" to enable transparent viewmodels for DirectX 9.
+		"image"			"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"	"1"
+	}
+	
 	//crosshairs
 	xHairCircle
 	{
@@ -2131,21 +2146,6 @@
 		"wide"			"470"
 		"tall"			"500"
 		"PaintBackgroundType"	"0"
-	}
-	
-	"TransparentViewmodelMask"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodelMask"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"		// "1" to enable transparent viewmodels for DirectX 9.
-		"enabled"		"1"		// "1" to enable transparent viewmodels for DirectX 9.
-		"image"			"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"	"1"
 	}
 	
 	"ItemAttributeTracker"

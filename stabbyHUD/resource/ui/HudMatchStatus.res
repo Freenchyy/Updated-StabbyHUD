@@ -280,7 +280,7 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"-14"	[$WIN32]
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
@@ -304,6 +304,7 @@
 			"xpos"					"cs-0.5"
 			"wide"					"130"
 			"ypos_minmode"			"0"
+			"ypos"                  "0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -317,20 +318,20 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFontMediumSmall2"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"39"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"6"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"30"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"

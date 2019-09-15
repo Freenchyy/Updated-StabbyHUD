@@ -1708,6 +1708,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumSmall2"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"14"
+				"tall_hidef"	"20"
+				"tall_lodef"	"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontMediumSmallSecondary"
 		{
 			"1"

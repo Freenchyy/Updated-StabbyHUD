@@ -9,8 +9,8 @@
 		"PositiveColor"		"Heal Numbers"          //Color of heal numbers
 		"NegativeColor"		"Damage Numbers On Head"        //Color of damage numbers
 		"delta_lifetime"	"1.8"                  //Duration
-		"delta_item_font"	"HudFontMediumSmall"         //Font
-		"delta_item_font_big"	"HudFontMediumSmall"
+		"delta_item_font"	"HudFontSmall"         //Font
+		"delta_item_font_big"	"HudFontSmall"
 		"visible"		"1"
 		"visible_minmode"	"1"
 	}

@@ -1713,9 +1713,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"14"
-				"tall_hidef"	"20"
-				"tall_lodef"	"14"
+				"tall"		"13"
+				"tall_hidef"	"19"
+				"tall_lodef"	"13"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

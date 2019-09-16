@@ -1230,16 +1230,16 @@
 
 	HudDamageIndicator
 	{
-		"fieldName" "HudDamageIndicator"    // Remove everything besides 
-		"visible" "1" 	                    //
-		"enabled" "1" 	                    //	"HudDamageIndicator
-		"MinimumWidth" "7"                  //	{
-		"MaximumWidth" "24"                 //	}	"
-		"StartRadius" "80"                  //
-		"EndRadius" "80"                    // To get the default back
-		"MinimumHeight" "40"                //
-		"MaximumHeight" "70"                //
-		"MinimumTime" "1"                   //
+		"fieldName"		"HudDamageIndicator"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"MinimumWidth" 	"12"
+		"MaximumWidth"	"20"
+		"StartRadius"	"100"
+		"EndRadius"		"80"
+		"MinimumHeight"	"30"
+		"MaximumHeight"	"60"
+		"MinimumTime"	"1"
 	}
 	
 	HudCommentary
@@ -1886,24 +1886,27 @@
 	}
 	HudTournament
 	{
-		"fieldName"		"HudTournament"
-		"visible"		"0"
-		"enabled"		"1"
-		"xpos"			"c-125"
-		"ypos"			"5"
-		"wide"			"250"
-		"tall"			"80"
+		"fieldName"				"HudTournament"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"c-125"
+		"ypos"					"5"
+		"ypos_lodef"				"75"
+		"zpos"					"2"
+		"wide"					"250"
+		"tall"					"80"
 	}
 
 	HudTournamentSetup
 	{
-		"fieldName"		"HudTournamentSetup"
-		"visible"		"0"
-		"enabled"		"1"
-		"xpos"			"c-90"
-		"ypos"			"-70"
-		"wide"			"180"
-		"tall"			"65"
+		"fieldName"				"HudTournamentSetup"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"c-90"
+		"ypos"					"-70"
+		"ypos_lodef"				"75"
+		"wide"					"180"
+		"tall"					"65"
 	}
 
 	HudStopWatch

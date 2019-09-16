@@ -51,9 +51,9 @@
 
 		
 		"xpos"			"88"	// 88 // 108
-		"ypos"			"93" 	// 88 
+		"ypos"			"93" 	// 88
 		"wide"			"38"	// 48
-		"tall"			"38"	// 48	
+		"tall"			"38"	// 48
 		
 		"xpos_minmode"	"58"
 		"ypos_minmode"	"33"

@@ -2242,5 +2242,46 @@
 		"wide"					"f0"
 		"tall"					"150"
 	}
+	
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
+	}
+	
+	"CTFStreakNotice"
+	{
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
 }
 

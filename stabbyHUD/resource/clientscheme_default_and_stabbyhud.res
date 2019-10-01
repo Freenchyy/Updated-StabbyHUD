@@ -1746,6 +1746,18 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
+		"HudFontSmall2"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"15"
+				"tall_lodef"	"17"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
 		"HudFontSmallishBold"
 		{
 			"1"

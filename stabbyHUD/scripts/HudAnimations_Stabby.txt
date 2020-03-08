@@ -5,10 +5,10 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValueFlame 		 FgColor "Health Buff" Accel 0.0 0.0
-	Animate PlayerStatusHealthValuePovo 		 FgColor "Health Buff" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Buff" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Buff" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFlame 		 FgColor "Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValuePovo 		 FgColor "Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -36,10 +36,10 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValueFlame 		 FgColor "Health Hurt" Accel 0.0 0.0
-	Animate PlayerStatusHealthValuePovo 		 FgColor "Health Hurt" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Hurt" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Hurt" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFlame 		 FgColor "Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValuePovo 		 FgColor "Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normalt" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }

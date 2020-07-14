@@ -1,103 +1,98 @@
-"GameMenu"
-{	
+"GameMenu" [$WIN32]
+{
+	"QuickplayButton"
+	{
+		"label" 		"QUICKPLAY" 
+		"command" 		"quickplay"
+		"subimage" 		"glyph_multiplayer"
+		"OnlyAtMenu" 	"0"
+	}
+	"QuickplayChangeButton"
+	{
+		"label" 		"#MMenu_NewGame" 
+		"command" 		"quickplay"
+		"subimage" 		"glyph_server"
+		"OnlyInGame" 	"1"
+	}
+	"PlayPVEButton"
+	{
+		"label" 		"#MMenu_PlayCoop" 
+		"command" 		"playpve"
+		"subimage" 		"glyph_coop"
+		"OnlyAtMenu" 	"0"
+	}
 	"ServerBrowserButton"
 	{
-		"label" 		"Browse Servers" 
+		"label" 		"#MMenu_Servers" 
 		"command" 		"OpenServerBrowser"
-		"subimage" 		""
+		"subimage" 		"glyph_server_browser"
+		"OnlyAtMenu" 	"0"
+	} 
+	"ChangeServerButton"
+	{
+		"label" 		"#MMenu_ChangeServer" 
+		"command" 		"OpenServerBrowser"
+		"subimage" 		"glyph_server_browser"
+		"OnlyInGame" 	"1"
 	}
+	"ReplayBrowserButton"
+	{
+		"label" 		"DEMO UI"
+		"command" 		"engine demoui"
+		"subimage" 		"glyph_tv"
+	}
+	"SteamWorkshopButton"
+	{
+		"label" 		"#MMenu_SteamWorkshop"
+		"command" 		"engine OpenSteamWorkshopDialog"
+		"subimage" 		"glyph_steamworkshop"
+	}
+	"VRModeButton"
+	{
+		"label" 		"#MMenu_VRMode_Activate"
+		"command" 		"engine vr_toggle"
+		"subimage" 		"glyph_vr"
+		"OnlyWhenVREnabled" "1"
+	}
+		"PlayCompButton"
+	{
+		"label" 		"Competitive" 
+		"command" 		"ladder_ui_show"
+		"subimage" 		"beta"
+		"OnlyAtMenu" 	"0"
+		//"OnlyWhenCompetitiveEnabled" "1"
+	}
+	//--------------------------------------------------------------
+	// These buttons get positioned by the MainMenuOverride.res
+	//--------------------------------------------------------------
 	"CreateServerButton"
 	{
 		"label" 		"#GameUI_GameMenu_CreateServer"
 		"command" 		"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" 	"1"
-		"tooltip" 		"Create Server"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"#GameUI_GameMenu_CreateServer"
 	}
-	
-	"SettingsButton"
-	{
-		"label"			"Options"
-		"command"		"OpenOptionsDialog"
-		"subimage" 		""
-	}
-	"CoachPlayersButton"
-    {
-        "label" 		""
-        "command"   	"engine cl_coach_toggle"
-        "subimage" 		"glyph_commentary"
-        "tooltip"   	"Be a coach"
-    }
-	"AdvancedOptionsButton"
-    {
-        "label" 		""
-        "command"   	"opentf2options"
-        "subimage"  	"glyph_options"
-        "tooltip"   	"Advanced Options"
-    }
-	
-	"CharacterSetupButton"
-	{
-		"label"			"Loadout/Stats"
-		"command"		"engine open_charinfo"
-		"subimage"		""
-	}
-	"ConsoleButton"
-	{
-		"label" 		""
-		"command" 		"engine showconsole"
-		"subimage" 		"glyph_forums"
-		"tooltip"   	"Toggle Console"
-	}
-	"AchievementsButton"
-    {
-        "label" 		""
-        "command"   	"OpenAchievementsDialog"
-        "subimage"  	"glyph_achievements"
-        "tooltip"   	"Achievements"
-    }
 	"GeneralStoreButton"
 	{
 		"label" 		"#MMenu_Shop"
 		"command" 		"engine open_store"
 		"subimage" 		"glyph_store"
-        "tooltip"   	"Store"
+	}	
+	"CharacterSetupButton"
+	{
+		"label" 		"#MMenu_CharacterSetup"
+		"command" 		"engine open_charinfo"
+		"subimage" 		"glyph_items"
 	}
-	
-	"6v6Button"
-    {
-        "label" 		"12 Player"
-        "command"   	"engine cl_hud_minmode 1"
-		"subimage"		""
-    }
-    "16v16Button"
-    {
-        "label" 		"32 Player"
-        "command"   	"engine cl_hud_minmode 0"
-		"subimage"		""
-    }
-	
-	"QuitButton"
-    {
-        "label" 		"Quit"
-        "command"   	"engine replay_confirmquit"
-		"subimage"		""
-		"OnlyAtMenu"    "1"
-    }
-	"DisconnectButton"
-    {
-        "label" 		"Disconnect"
-        "command"   	"engine disconnect"
-		"subimage"		""
-		"OnlyInGame"	"1"
-    }
-	
-
+	//------------------------------------------------------------
 	// These buttons are only shown while in-game
+	// and also are positioned by the MainMenuOverride.res
+	//------------------------------------------------------------
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 		"subimage" 		"icon_checkbox"
 		"tooltip" 		"#MMenu_CallVote"
 	}
@@ -105,7 +100,7 @@
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 		"subimage" 		"glyph_muted"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
@@ -116,5 +111,13 @@
 		"OnlyInGame"	"1"
 		"subimage" 		"icon_whistle"
 		"tooltip" 		"#MMenu_RequestCoach"
+	}
+	"ServerShortcut1"
+	{
+		"label" 		"stabby's Server Connect"
+		"command" 		"engine connect 66.150.188.38:27015"
+		"tooltip" 		"Connect to stabby's Server"
+		"OnlyAtMenu"	"0"
+		"OnlyInGame"	"0"
 	}
 }

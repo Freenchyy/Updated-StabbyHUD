@@ -9,8 +9,8 @@
 		"PositiveColor"		"Heal Numbers"          //Color of heal numbers
 		"NegativeColor"		"Damage Numbers On Head"        //Color of damage numbers
 		"delta_lifetime"	"1.8"                  //Duration
-		"delta_item_font"	"HudFontSmall2"         //Font
-		"delta_item_font_big"	"HudFontSmall2"
+		"delta_item_font"	"HudFontSmall"         //Font
+		"delta_item_font_big"	"HudFontSmall"
 		"visible"		"1"
 		"visible_minmode"	"1"
 	}
@@ -19,8 +19,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-260"		// c-260
-		"ypos"			"r156"		// r156
+		"xpos"			"c-260"		// c-230
+		"ypos"			"r156"		// r77
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26"
@@ -37,8 +37,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-259"		// c-259
-		"ypos"			"r154"		// r154
+		"xpos"			"c-259"		// c-229
+		"ypos"			"r154"		// r75
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26"

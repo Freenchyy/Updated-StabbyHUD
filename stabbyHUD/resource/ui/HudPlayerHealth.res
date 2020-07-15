@@ -28,7 +28,7 @@
 		"zpos"			"4"
 
 		
-		"xpos"			"90" 	// 90 // 110
+		"xpos"			"110" 	// 90
 		"ypos"			"95"	// 90
 		"wide"			"34"	// 44
 		"tall"			"34"	// 44
@@ -50,10 +50,10 @@
 		"zpos"			"3"
 
 		
-		"xpos"			"88"	// 88 // 108
+		"xpos"			"108"	// 88
 		"ypos"			"93" 	// 88
 		"wide"			"38"	// 48
-		"tall"			"38"	// 48
+		"tall"			"38"	// 48	
 		
 		"xpos_minmode"	"58"
 		"ypos_minmode"	"33"
@@ -205,7 +205,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBGPovo"
-		"xpos"			"105"    // 126
+		"xpos"			"126"
 		"ypos"			"95"	// 91
 		"zpos"			"-1"
 		"wide"			"10"		// 17
@@ -232,7 +232,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG2Povo"
-		"xpos"			"90"	// 90  // 110
+		"xpos"			"110"	// 90
 		"ypos"			"111"
 		"zpos"			"-1"
 		"wide"			"38"	// 48
@@ -280,9 +280,9 @@
 		"ypos"			"20"
 		"ypos_minmode"	"0"
 		"zpos"			"7"
-		"wide"			"50"
+		"wide"			"70"
 		"wide_minmode"	"50"
-		"tall"			"50"
+		"tall"			"70"
 		"tall_minmode"	"50"
 		"visible"		"1"
 		"enabled"		"1"
@@ -298,9 +298,9 @@
 		"ypos"			"20"
 		"ypos_minmode"	"0"
 		"zpos"			"7"
-		"wide"			"50"
+		"wide"			"70"
 		"wide_minmode"	"50"
-		"tall"			"50"
+		"tall"			"70"
 		"tall_minmode"	"50"
 		"visible"		"1"
 		"enabled"		"1"
